@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+  }
+  .header{
+  background-color: rgb(246, 246, 249);
+  display:flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 5px 10px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+  ul.nav-link{
+    list-style-type: none;
+    margin: 0;
+    padding: 1 20 px;
+    display: inline-flex;
+   
+  }
+  img:hover{
+    transform:scale(1,2);
+  }
+  li{
+    display: inline-block;
+    padding: 0 20px;
+    color:aqua;
+  
+  }
+  li:hover{
+    transform:scale(1,2);
+  }
+  button{
+    font-weight: 200;
+    cursor:pointer;
+    color: black;
+    border: none;
+    background-color: aqua;
+   transition: all 0.3s case 0s;
+  
+  }
+  button:hover{
+    transform:scale(1,2);
+    color: black;
+  }
